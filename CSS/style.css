@@ -21,6 +21,9 @@ body {
 .intro {
     background-color:royalblue;
     color:white ;
+    width: auto;
+    height: auto;
+    overflow:auto;
     padding: 1em;
 }
 
