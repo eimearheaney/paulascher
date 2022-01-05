@@ -19,13 +19,13 @@ body {
 }
 
 .intro {
-    background-color:#5855FF;
+    background-color:royalblue;
     color:white ;
     padding: 1em;
 }
 
 .timeline {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
     padding: 1em;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .memorabledesigns{
-    background-color: #FE0879;
+    background-color: magenta;
     color: white;
     padding: 1em;
 }
@@ -61,7 +61,7 @@ h1 {
     font-size: 5.653rem;
     padding-top: .5em;
     text-transform: uppercase;
-    line-height: 1em
+    line-height: 150%
 
 }
 
@@ -70,8 +70,13 @@ h2 {
     margin: 3em 0 1em 0;
 }
 
+h3 {
+    font-size: 1.799rem;
+    margin: 3em 0 1em 0;
+}
+
 blockquote {
-    font-size: 1.414rem;
+    font-size: 1.714rem;
     font-style: italic;
     hanging-punctuation: first;
     text-indent: -0.5rem
