@@ -95,15 +95,15 @@ header p {
 }
 
 .intro p {
-    color: #000000;
+  text-decoration-color: #000000;
 }
 
 .intro h3 {
-    color: #000000;
+  text-decoration-color: #000000;
 }
 
 .timeline p{
- background-color: #ffffff;
+ text-decoration-color: whitesmoke;
 }
 
 .inspiration p{
@@ -115,15 +115,6 @@ header p {
     text-transform: uppercase
 }
 
-.dropcap {
-    font-family: warnock-pro-display, serif;
-    float: left;
-    font-size: 6rem;
-    padding-right: .05em;
-    line-height: .5;
-    color: #275039;}
-
-p {font-family: mr-eaves-sans, sans-serif;}
 
 /*-- Styling links --*/
 a {
@@ -144,7 +135,7 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background: #87460D;
+    background: #000000;
     padding: 2em 0;
     font-size: 0.75rem;
 }
