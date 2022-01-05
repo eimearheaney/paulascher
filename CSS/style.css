@@ -11,15 +11,9 @@
 
 body {
     background: rgb(0, 0, 0);
-    color: #000000;
+    color: #f8f8f8;
     font-family:'Roboto Condensed', sans-serif;
     margin: 15px;
-}
-
-section, header {
-    width: 80%;
-    max-width: 700px;
-    margin: 15px;;
 }
 
 
@@ -48,6 +42,9 @@ section, header {
 }
 
 
+
+
+
 .gridimage {
     display: grid;
     grid-gap: 10px;
@@ -68,6 +65,7 @@ h1 {
     padding-top: .5em;
     text-transform: uppercase;
     line-height: 1em
+
 }
 
 .lower {
@@ -97,6 +95,8 @@ header h2 {
 .leader {
     text-transform: uppercase
 }
+
+
 
 
 /*-- Styling links --*/
