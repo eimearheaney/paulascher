@@ -23,23 +23,27 @@ section, header {
 }
 
 
-.intro{
+.intro {
     background-color:#5855FF;
+    color:white ;
     padding: 3em 0;
 }
 
-.timeline{
+.timeline {
     background-color: rgb(0, 0, 0);
+    color: white;
     padding: 3em 0;
 }
 
-.inspiration{
+.inspiration {
     background-color:whitesmoke ;
+    color:black;
     padding: 3em 0;
 }
 
 .memorabledesigns{
     background-color: #FE0879;
+    color: white;
     padding: 3em 0;
 }
 
@@ -89,27 +93,6 @@ header h2 {
     margin-bottom: 1.5em;
     color: #333333
 }
-
-header p {
-    font-size: 1.3rem
-}
-
-.intro p {
-  text-decoration-color: #000000;
-}
-
-.intro h3 {
-  text-decoration-color: #000000;
-}
-
-.timeline p{
- text-decoration-color: whitesmoke;
-}
-
-.inspiration p{
-    color:black;
-}
-
 
 .leader {
     text-transform: uppercase
