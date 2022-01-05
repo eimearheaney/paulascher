@@ -18,12 +18,6 @@ body {
     
 }
 
-section {
-    display: block;
-    width: 400px;
-    height: 160px;
-}
-
 .intro {
     background-color:#5855FF;
     color:white ;
