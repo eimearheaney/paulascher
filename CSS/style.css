@@ -93,8 +93,11 @@ header h2 {
     text-transform: uppercase
 }
 
-
-
+.container1 {
+    width: 620px;
+    height: 620px;
+    text-align: center;
+}
 
 /*-- Styling links --*/
 a {
