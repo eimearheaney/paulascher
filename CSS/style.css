@@ -20,30 +20,23 @@ body {
 }
 
 .intro {
-    background-color:royalblue;
-    color:white ;
-    width: auto;
-    height: auto;
-    overflow:auto;
-    padding: 1em;
+    background:royalblue;
+    padding: 3em 0;
 }
 
 .timeline {
-    background-color: black;
-    color: white;
-    padding: 1em;
+    background: black;
+    padding: 3em 0;
 }
 
 .inspiration {
-    background-color:whitesmoke ;
-    color:black;
-    padding: 1em;
+    background:whitesmoke ;
+    padding: 3em 0;
 }
 
 .memorabledesigns{
-    background-color: magenta;
-    color: white;
-    padding: 1em;
+    background: magenta;
+    padding: 3em 0;
 }
 
 .gridimage {
