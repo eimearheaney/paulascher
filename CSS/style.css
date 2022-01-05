@@ -52,9 +52,6 @@ section, header {
 
 /*-- Styling typography --*/
 
-h1, h2, blockquote {
-    color: rgb(250, 250, 250);
-}
 
 p, blockquote, h1 {
     margin-bottom: 1.5rem;
@@ -84,12 +81,6 @@ blockquote {
     text-indent: -0.5rem
 }
 
-cite {
-    font-size: 0.8em;
-    color: #8b1b1b;
-    font-style: normal;
-}
-
 header h2 {
     font-size: 1.827rem;
     font-style: italic;
@@ -102,18 +93,22 @@ header p {
     font-size: 1.3rem
 }
 
-.indent {
-    padding-left: 4em;
-    font-style: italic;
+.intro p {
+    color: #000000;
 }
 
-.street p {
-    color: #f7f7f7;
+.intro h3 {
+    color: #000000;
 }
 
-.street h2 {
-    color: #f7f7f7;
+.timeline p{
+ background-color: #ffffff;
 }
+
+.inspiration p{
+    color:black;
+}
+
 
 .leader {
     text-transform: uppercase
@@ -177,8 +172,8 @@ nav a:hover {
 hr {
     margin: 100px 0;
     height: 1px;
-    background-color: #87460D;
-    color: #87460D;
+    background-color: #5855FF;
+    color: #5855FF;
     border: 0 none;
 }
 
