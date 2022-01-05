@@ -13,17 +13,18 @@ body {
     background: rgb(0, 0, 0);
     color: #000000;
     font-family:'Roboto Condensed', sans-serif;
+    margin: 15px;
 }
 
 section, header {
     width: 80%;
     max-width: 700px;
-    margin: auto;
+    margin: 15px;;
 }
 
 
 .intro{
-    background-color: #5855FF;
+    background-color:#5855FF;
     padding: 3em 0;
 }
 
