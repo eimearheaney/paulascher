@@ -1,0 +1,210 @@
+/*-- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structural styling--*/
+
+body {
+    background: rgb(0, 0, 0);
+    color: #f8f8f8;
+    font-family:'Roboto Condensed', sans-serif;
+    margin: 0;
+    
+}
+
+section {
+    display: block;
+    width: 400px;
+    height: 160px;
+}
+
+.intro {
+    background-color:#5855FF;
+    color:white ;
+    padding: 1em;
+}
+
+.timeline {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1em;
+}
+
+.inspiration {
+    background-color:whitesmoke ;
+    color:black;
+    padding: 1em;
+}
+
+.memorabledesigns{
+    background-color: #FE0879;
+    color: white;
+    padding: 1em;
+}
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+}
+
+
+/*-- Styling typography --*/
+
+
+p, blockquote, h1 {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 5.653rem;
+    padding-top: .5em;
+    text-transform: uppercase;
+    line-height: 1em
+
+}
+
+.lower {
+    text-transform: none
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+}
+
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem
+}
+
+header h2 {
+    font-size: 1.827rem;
+    font-style: italic;
+    margin-top: -.5em;
+    margin-bottom: 1.5em;
+    color: #333333
+}
+
+.leader {
+    text-transform: uppercase
+}
+
+
+
+
+/*-- Styling links --*/
+a {
+    color: #870d68;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(115, 133, 0);
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #000000;
+    padding: 2em 0;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px
+}
+
+nav a {
+    color: #f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(255, 187, 127);
+    transition: all 0.3s ease-in-out
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: #5855FF;
+    color: #5855FF;
+    border: 0 none;
+}
+
+/*----- IMAGES -----*/
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+footer {
+    background: #030307;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0
+}
+
+footer p {
+    margin: .5em
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 1em auto;}
+  
+  .connections a:hover svg path {
+        fill: #D8C385;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #D8C385;
+          transition: all 0.2s ease-in-out;}
