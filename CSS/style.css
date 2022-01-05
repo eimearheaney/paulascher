@@ -22,18 +22,23 @@ section, header {
 }
 
 
-
-.market img {
-    padding-bottom: 2em
-}
-
 .intro{
-    background: #5855FF;
+    background-color: #5855FF;
     padding: 3em 0;
 }
 
 .timeline{
-    background: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 3em 0;
+}
+
+.inspiration{
+    background-color:whitesmoke ;
+    padding: 3em 0;
+}
+
+.memorabledesigns{
+    background-color: #FE0879;
     padding: 3em 0;
 }
 
@@ -48,7 +53,7 @@ section, header {
 /*-- Styling typography --*/
 
 h1, h2, blockquote {
-    color: blue;
+    color: rgb(250, 250, 250);
 }
 
 p, blockquote, h1 {
@@ -231,30 +236,3 @@ footer p {
   footer .connections a:hover svg path {
           fill:  #D8C385;
           transition: all 0.2s ease-in-out;}
-/*
-
-
-@media only screen and (max-width: 900px) {
-            .gridimage {
-              display: grid;
-              grid-gap: 20px;
-              grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-              padding-bottom: 2em;}
-
-              h1 {
-                font-size: 4.5rem
-            }
-
-@media only screen and (max-width: 650px) {
-
-    h1 {
-        font-size: 3rem
-    }
-
-    header h2 {
-        font-size: 1.5rem
-    }
-
-
-
-}
