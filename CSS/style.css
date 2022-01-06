@@ -56,21 +56,14 @@ section{
 /*-- Styling typography --*/
 
 
-p, blockquote, h1 {
+p, blockquote {
     margin-bottom: 1.5rem;
     line-height: 1.4;
 }
 
-h1 {
-    font-size: 5.653rem;
-    padding-top: .5em;
-    text-transform: uppercase;
-    line-height: 150%
-
-}
-
 h2 {
-    font-size: 1.999rem;
+    font-size: 2.1rem;
+    font-weight: bold;
     margin: 3em 0 1em 0;
 }
 
@@ -142,7 +135,7 @@ a {
 }
 
 a:hover {
-    color: rgb(115, 133, 0);
+    color: magenta;
     border-bottom: 1px dotted;
 }
 
