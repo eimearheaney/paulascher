@@ -28,18 +28,9 @@ section{
     background:rgb(56, 99, 228);
 }
 
-.inspiration {
-    background:whitesmoke;
-}
-
 .memorabledesigns{
     background: #FE0879;
 }
-
-.conclusion{
-    background: black;
-}
-
 
 .gridimage {
     display: grid;
@@ -106,11 +97,11 @@ blockquote {
 }
 
 .inspiration h2{
-    color: black;
+    color: white;
 }
 
 .inspiration p{
-    color: black;
+    color: white;
 }
 
 .memorabledesigns h2{
@@ -122,11 +113,11 @@ blockquote {
 }
 
 .aneducator h2{
-    color: black;
+    color: white;
 }
 
 .aneductor p{
-    color: black;
+    color: white;
 }
 
 .conclusion h2{
