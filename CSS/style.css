@@ -51,8 +51,9 @@ div {
   .aligned {
     display: flex;
     align-items: center;
-    width: 50%;
-}
+    max-width:fit-content;
+  }
+    
    
 .conclusion {
     padding: 10px;
