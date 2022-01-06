@@ -18,7 +18,7 @@ body {
 }
 
 section{
-    margin: 1 em;
+    margin: 0 em;
     padding: 1em;
     text-align: justify;
 }
@@ -184,13 +184,6 @@ nav a:hover {
     transition: all 0.3s ease-in-out
 }
 
-hr {
-    margin: 100px 0;
-    height: 1px;
-    background-color: #5855FF;
-    color: #5855FF;
-    border: 0 none;
-}
 
 /*----- IMAGES -----*/
 img {
@@ -200,7 +193,7 @@ img {
 }
 
 footer {
-    background: #030307;
+    background: royalblue;
     text-align: center;
     font-size: 0.75rem;
     color: #f7f7f7;
