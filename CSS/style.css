@@ -48,6 +48,15 @@ div {
     width: 50%;
   }
 
+  .aligned {
+    display: flex;
+    align-items: center;
+}
+   
+.conclusion {
+    padding: 10px;
+}
+
 /*-- Styling typography --*/
 
 
