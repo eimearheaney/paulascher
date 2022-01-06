@@ -38,6 +38,11 @@ section{
     background: magenta;
 }
 
+.conclusion{
+    background: black;
+}
+
+
 .gridimage {
     display: grid;
     grid-gap: 10px;
@@ -125,11 +130,11 @@ blockquote {
 }
 
 .conclusion h2{
-    color: black;
+    color: white;
 }
 
 .conclusion p{
-    color: black;
+    color: white;
 }
 
 
