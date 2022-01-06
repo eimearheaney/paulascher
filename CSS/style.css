@@ -25,7 +25,10 @@ section{
 }
 
 .intro {
-    background:royalblue;
+    background:rgb(56, 99, 228);
+    margin: auto;
+    padding: 1em;
+    text-align: justify;
 }
 
 .inspiration {
