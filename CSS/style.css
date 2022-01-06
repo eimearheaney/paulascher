@@ -14,13 +14,11 @@ body {
     background: rgb(0, 0, 0);
     color: #f8f8f8;
     font-family:'Roboto Condensed', sans-serif;
-    margin:0 ;
     line-height:32px ;
 }
 
 section{
     margin: auto;
-    padding: 10px 20px;
     width: 80%;
     max-width: 700px;
     text-align: justify;
