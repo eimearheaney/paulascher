@@ -45,6 +45,12 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
 }
 
+.container1 {
+    width: 620px;
+    height: 620px;
+    text-align: center;
+}
+
 
 /*-- Styling typography --*/
 
@@ -79,11 +85,54 @@ blockquote {
     text-indent: -0.5rem
 }
 
-.container1 {
-    width: 620px;
-    height: 620px;
-    text-align: center;
+.intro h2{
+  color: black
 }
+
+.intro p{
+    color:black
+}
+
+.timeline h2{
+    color: white;
+}
+
+.timeline p{
+    color: white;
+}
+
+.inspiration h2{
+    color: black;
+}
+
+.inspiration p{
+    color: black;
+}
+
+.memorabledesigns h2{
+    color: white;
+}
+
+.memorabledesigns p{
+    color: white;
+}
+
+.aneducator h2{
+    color: black;
+}
+
+.aneductor p{
+    color: black;
+}
+
+.conclusion h2{
+    color: black;
+}
+
+.conclusion p{
+    color: black;
+}
+
 
 /*-- Styling links --*/
 a {
