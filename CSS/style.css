@@ -26,9 +26,6 @@ section{
 
 .intro {
     background:rgb(56, 99, 228);
-    margin: auto;
-    padding: 1em;
-    text-align: justify;
 }
 
 .inspiration {
@@ -60,8 +57,9 @@ section{
 /*-- Styling typography --*/
 
 
-p, blockquote {
-    margin-bottom: 1.5rem;
+p {
+    font-size: small;
+    margin-bottom: 10px;
     line-height: 1.4;
 }
 
@@ -76,11 +74,19 @@ h3 {
     margin: 3em 0 1em 0;
 }
 
+.intro{
+    margin: auto;
+    padding: 1em;
+    text-align: justify;
+}
+
 blockquote {
     font-size: 1.714rem;
     font-style: italic;
     hanging-punctuation: first;
-    text-indent: -0.5rem
+    text-indent: -0.5rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 .intro h2{
@@ -173,7 +179,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: rgb(255, 187, 127);
+    color: rgb(240, 54, 224);
     transition: all 0.3s ease-in-out
 }
 
@@ -226,9 +232,9 @@ footer p {
         margin: 1em auto;}
   
   .connections a:hover svg path {
-        fill: #D8C385;
+        fill: #e72dce;
         transition: all 0.2s ease-in-out;}
   
   footer .connections a:hover svg path {
-          fill:  #D8C385;
+          fill:  #e72dce;
           transition: all 0.2s ease-in-out;}
