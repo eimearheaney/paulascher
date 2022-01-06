@@ -51,7 +51,8 @@ div {
   .aligned {
     display: flex;
     align-items: center;
-    max-width:fit-content;
+    max-width:100%;
+    height: auto;
   }
     
    
