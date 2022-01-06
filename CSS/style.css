@@ -23,6 +23,10 @@ section{
     text-align: justify;
 }
 
+div {
+    column-gap: 40px;
+  }
+
 .intro {
     background:rgb(56, 99, 228);
 }
@@ -48,7 +52,7 @@ section{
 
 
 p {
-    font-size:medium;
+    font-size:1.7rem;
     margin-bottom: 10px;
     line-height: 1.4;
 }
